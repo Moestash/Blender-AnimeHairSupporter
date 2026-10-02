@@ -12,12 +12,12 @@ def get_taper_enum_items():
     items = [
         ('Tapered', "Tapered", "", 'CURVE_DATA'),
         ('TaperedSuper', "Tapered Super", "", 'MOD_CURVE'),
-        ('Sphere', "Sphere", "", 'SPHERECURVE'),
+        ('Sphere', "Circle", "", 'SPHERECURVE'),
         ('Reversed', "Reversed", "", 'PMARKER'),
         ('ReversedSuper', "Reversed Super", "", 'CURVE_BEZCURVE'),
         ('TaperedOpen', "Tapered Open", "", 'CURVE_DATA'),
         ('TaperedSuperOpen', "Tapered Super Open", "", 'MOD_CURVE'),
-        ('SphereOpen', "Sphere Open", "", 'SPHERECURVE'),
+        ('SphereOpen', "Circle Open", "", 'SPHERECURVE'),
         ('ReversedOpen', "Reversed Open", "", 'PMARKER'),
         ('ReversedSuperOpen', "Reversed Super Open", "", 'CURVE_BEZCURVE'),
     ]
@@ -28,7 +28,7 @@ def get_taper_enum_items():
 
 def get_bevel_enum_items():
     items = [
-        ('Sphere', "Sphere", "", 'MESH_CIRCLE'),
+        ('Sphere', "Circle", "", 'MESH_CIRCLE'),
         ('2', "2", "", 'OUTLINER_OB_META'),
         ('3', "3", "", 'COLLAPSEMENU'),
         ('Triangle', "Triangle", "", 'EDITMODE_VEC_HLT'),

@@ -4,7 +4,7 @@ import mathutils
 
 class ahs_maincurve_extra_deform(bpy.types.Operator):
     bl_idname = 'object.ahs_maincurve_extra_deform'
-    bl_label = "Extra Deform"
+    bl_label = "Extra Deformation"
     bl_description = "Exaggerate or smooth the selected curve"
     bl_options = {'REGISTER', 'UNDO'}
 

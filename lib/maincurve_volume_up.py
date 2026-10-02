@@ -7,7 +7,7 @@ from . import _common
 
 class ahs_maincurve_volume_up(bpy.types.Operator):
     bl_idname = 'object.ahs_maincurve_volume_up'
-    bl_label = "Volume Up"
+    bl_label = "Add Volume"
     bl_description = "Apply a taper/bevel to the selected curve and convert it to a solid"
     bl_options = {'REGISTER', 'UNDO'}
 
