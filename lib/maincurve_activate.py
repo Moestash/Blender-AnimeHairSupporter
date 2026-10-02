@@ -5,8 +5,8 @@ from . import _common
 
 class ahs_maincurve_activate(bpy.types.Operator):
     bl_idname = 'object.ahs_maincurve_activate'
-    bl_label = "メインカーブをアクティブ化"
-    bl_description = "参照元であるメインカーブへアクティブを移す"
+    bl_label = "Activate"
+    bl_description = "Move the active selection to the main curve, which is the reference"
     bl_options = {'REGISTER', 'UNDO'}
 
     @classmethod

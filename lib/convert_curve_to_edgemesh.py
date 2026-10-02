@@ -6,8 +6,8 @@ from . import _common
 
 class ahs_convert_curve_to_edgemesh(bpy.types.Operator):
     bl_idname = 'object.ahs_convert_curve_to_edgemesh'
-    bl_label = "カーブ > 辺メッシュ"
-    bl_description = "選択中のNURBSカーブを辺メッシュに戻す"
+    bl_label = "Curve > Edge Mesh"
+    bl_description = "Convert the selected NURBS curve back to an edge mesh"
     bl_options = {'REGISTER', 'UNDO'}
 
     @classmethod

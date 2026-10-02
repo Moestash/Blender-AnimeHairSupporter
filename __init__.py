@@ -10,7 +10,7 @@ bl_info = {
     'author': "saidenka, Taremin",
     'version': (1, 0, 4),
     'blender': (2, 80, 0),
-    'location': "3Dビュー > オブジェクトモード > サイドバー > ツール > アニメ髪支援パネル",
+    'location': "3D View > Object Mode > Sidebar > Tools > Anime Hair Assistant",
     'description': "",
     'warning': "",
     'wiki_url': "https://github.com/saidenka/Blender-AnimeHairSupporter",
@@ -54,9 +54,9 @@ for name in module_names:
 
 # パネルの設定
 class AHS_Props(bpy.types.PropertyGroup):
-    maincurve_expand: bpy.props.BoolProperty(name="メインパネルを展開", default=True)
-    tapercurve_expand: bpy.props.BoolProperty(name="テーパーパネルを展開", default=True)
-    bevelcurve_expand: bpy.props.BoolProperty(name="ベベルパネルを展開", default=True)
+    maincurve_expand: bpy.props.BoolProperty(name="Expand Main Curve", default=True)
+    tapercurve_expand: bpy.props.BoolProperty(name="Expand Taper Curve", default=True)
+    bevelcurve_expand: bpy.props.BoolProperty(name="Expand Bevel Curve", default=True)
 
 
 # モジュールからクラスの取得

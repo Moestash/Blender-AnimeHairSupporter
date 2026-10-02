@@ -4,15 +4,15 @@ from . import _common
 
 class ahs_tapercurve_activate(bpy.types.Operator):
     bl_idname = 'object.ahs_tapercurve_activate'
-    bl_label = "テーパー/ベベルをアクティブ化"
-    bl_description = "テーパー/ベベルにアクティブを移す"
+    bl_label = "Activate"
+    bl_description = "Move the active selection to the taper/bevel"
     bl_options = {'REGISTER', 'UNDO'}
 
     items = [
-        ('TAPER', "テーパー", "", 'CURVE_NCURVE', 1),
-        ('BEVEL', "ベベル", "", 'SURFACE_NCIRCLE', 2),
+        ('TAPER', "Taper", "", 'CURVE_NCURVE', 1),
+        ('BEVEL', "Bevel", "", 'SURFACE_NCIRCLE', 2),
     ]
-    mode: bpy.props.EnumProperty(items=items, name="モード")
+    mode: bpy.props.EnumProperty(items=items, name="Mode")
 
     @classmethod
     def poll(cls, context):

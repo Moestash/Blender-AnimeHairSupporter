@@ -6,8 +6,8 @@ from . import _common
 
 class ahs_tapercurve_id_singlize(bpy.types.Operator):
     bl_idname = 'object.ahs_tapercurve_id_singlize'
-    bl_label = "テーパー/ベベルのシングルユーザー化"
-    bl_description = "テーパー/ベベルの参照が複数ある場合は複製して各個割り当てる"
+    bl_label = "Singlize"
+    bl_description = "If there are multiple taper/bevel references, duplicate them and assign each one individually."
     bl_options = {'REGISTER', 'UNDO'}
 
     @classmethod
